@@ -23,4 +23,4 @@ RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT  /entrypoint.sh 
 
-EXPOSE 443
+EXPOSE 8080
