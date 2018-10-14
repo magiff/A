@@ -16,7 +16,7 @@ ENV VER=3.47
 
 RUN mkdir -m 777 /user/bin/v2ray
 
-COPY V2RAY.json /user/bin/v2ray/config.json
+COPY V2Ray.json /user/bin/v2ray/config.json
  
 ADD entrypoint.sh /entrypoint.sh
 
