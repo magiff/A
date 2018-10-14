@@ -11,7 +11,8 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && rm -rf v2ray-linux-64.zip \
  && rm -rf v2ray-linux-64 \
  && chgrp -R 0 /v2raybin \
- && chmod -R g+rwX /v2raybin 
+ && chmod -R g+rwX /v2raybin \
+ && chmod +X /v2raybin/v2ray
 COPY config.txt /v2raybin/config.json
  
 ADD entrypoint.sh /entrypoint.sh
