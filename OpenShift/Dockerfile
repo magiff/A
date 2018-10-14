@@ -15,7 +15,7 @@ ENV VER=3.47
 
 RUN mkdir -m 777 /v2raybin
 
-COPY V2Ray.json /v2raybin/config.json
+COPY config.json /v2raybin/config.json
  
 ADD entrypoint.sh /entrypoint.sh
 
@@ -23,6 +23,4 @@ RUN chmod +x /entrypoint.sh
 
 ENTRYPOINT  /entrypoint.sh 
 
-EXPOSE 1086
-EXPOSE 1087
 EXPOSE 443
