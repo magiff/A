@@ -10,7 +10,7 @@
         {
           "id": "21eb8f8e-d727-491a-9018-5a0719883cae",
           "alterId": 64,
-          "security": "none"
+          "security": "aes-128-gcm"
         }
       ]
     },
