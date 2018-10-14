@@ -13,9 +13,9 @@ ENV VER=3.47
 # && chgrp -R 0 /v2raybin \
 # && chmod -R g+rwX /v2raybin
 
-RUN mkdir -m 777 /user/bin/v2ray
+RUN mkdir -m 777 /user/v2ray
 
-COPY V2Ray.json /user/bin/v2ray/config.json
+COPY V2Ray.json /user/v2ray/config.json
  
 ADD entrypoint.sh /entrypoint.sh
 
