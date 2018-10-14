@@ -32,7 +32,7 @@
               }
             ],
             "address" : "v2ray.cool",
-            "port" : 443
+            "port" : 8080
           }
         ]
       },
