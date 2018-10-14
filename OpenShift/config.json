@@ -1,7 +1,4 @@
 {
-  "log": {
-    "loglevel": "warning"
-  },
   "inbound": {
     "protocol": "vmess",
     "port": 443,
